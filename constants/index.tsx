@@ -5,19 +5,9 @@ export const navLinks = [
     icon: "/assets/icons/home.svg",
   },
   {
-    label: "Image Restore",
-    route: "/transformations/add/restore",
-    icon: "/assets/icons/image.svg",
-  },
-  {
     label: "Generative Fill",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
-  },
-  {
-    label: "Object Remove",
-    route: "/transformations/add/remove",
-    icon: "/assets/icons/scan.svg",
   },
   {
     label: "Object Recolor",
@@ -25,9 +15,24 @@ export const navLinks = [
     icon: "/assets/icons/filter.svg",
   },
   {
+    label: "Image Restore",
+    route: "/transformations/add/restore",
+    icon: "/assets/icons/image.svg",
+  },
+  {
+    label: "Object Remove",
+    route: "/transformations/add/remove",
+    icon: "/assets/icons/scan.svg",
+  },
+  {
     label: "Background Remove",
     route: "/transformations/add/removeBackground",
     icon: "/assets/icons/camera.svg",
+  },
+  {
+    label: "About",
+    route: "/about",
+    icon: "/assets/icons/menu.svg",
   },
   {
     label: "Profile",
